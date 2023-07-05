@@ -1,0 +1,24 @@
+:root {
+  --bg-image: url(../../public/bg-page1.png);
+  --primary-color: #007bff;
+  --success-color: #28a745;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p, a {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-image: var(--bg-image);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: cover;
+}
